@@ -9,7 +9,7 @@
 	 
 		choco install git openssl
 		
-	c. Proceed to [Creating SSH Key](#CreatingSSHKey)
+	c. Proceed to [Creating SSH Key](#Creating-SSH-Key)
  2. Normal Installation (Recommended)
 
 	 a. Go to: [Download Git](https://git-scm.com/download/win)
@@ -20,7 +20,7 @@
 
 	 d. Download and latest version of openssl and install
 
-	 e. Proceed to [Creating SSH Key](#CreatingSSHKey)
+	 e. Proceed to [Creating SSH Key](#Creating-SSH-Key)
 	 
 <u>macOS:</u>
  1. HomeBrew (Package Manager) (Recommended)
@@ -31,7 +31,7 @@
 
 		brew install git openssl
 		
-	c. Proceed to [Creating SSH Key](#CreatingSSHKey)
+	c. Proceed to [Creating SSH Key](#Creating-SSH-Key)
  2. Normal Installation
 
 	 a. Go to: [Download Git](https://git-scm.com/download/mac)
@@ -42,7 +42,7 @@
 
 	 d. Download the latest version of openssl and build from source (do not recommend, advanced users only)
 
-	 e. Proceed to [Creating SSH Key](#CreatingSSHKey)
+	 e. Proceed to [Creating SSH Key](#Creating-SSH-Key)
 
 # Creating SSH Key
 
@@ -54,7 +54,7 @@
 		
 3. Press Enter to save your new key in your .ssh folder with the default name
 4. Press Enter to save your new key with no password (Recommended)
-5. Proceed to [Adding Key to GitHub](#AddingKeytoGitHub) or [Adding Key to GitLab](#AddingKeytoGitLab)
+5. Proceed to [Adding Key to GitHub](#Adding-Key-to-GitHub) or [Adding Key to GitLab](#Adding-Key-to-GitLab)
  
 <u>macOS:</u>
 1. Open Terminal
@@ -64,7 +64,7 @@
 		
 3. Press Enter to save your new key in your .ssh folder with the default name
 4. Press Enter to save your new key with no password (Recommended)
-5. Proceed to [Adding Key to GitHub](#AddingKeytoGitHub) or [Adding Key to GitLab](#AddingKeytoGitLab)
+5. Proceed to [Adding Key to GitHub](#Adding-Key-to-GitHub) or [Adding Key to GitLab](#Adding-Key-to-GitLab)
 
 # Adding Key to GitHub
 
@@ -100,7 +100,7 @@
 19. Click on the text box and `Ctrl + v` or right click and paste
 20. Click `Add SSH key`
 21. Confirm any prompts
-22. Proceed to [Setting Up Git](#SettingUpGit)
+22. Proceed to [Setting Up Git](#Setting-Up-Git)
 
 <u>macOS</u>
 
@@ -135,7 +135,7 @@
 19. Click on the text box and `Cmd + v` or right click and paste
 20. Click `Add SSH key`
 21. Confirm any prompts
-22. Proceed to [Setting Up Git](#SettingUpGit)
+22. Proceed to [Setting Up Git](#Setting-Up-Git)
 
 # Adding Key to GitLab
 
@@ -166,7 +166,7 @@
 14. Click the `x` to remove the Expiration date
 15. Click `Add key`
 16. Confirm any prompts
-17. Proceed to [Setting Up Git](#SettingUpGit)
+17. Proceed to [Setting Up Git](#Setting-Up-Git)
 
 <u>macOS</u>
 
@@ -196,7 +196,7 @@
 14. Click the `x` to remove the Expiration date
 15. Click `Add key`
 16. Confirm any prompts
-17. Proceed to [Setting Up Git](#SettingUpGit)
+17. Proceed to [Setting Up Git](#Setting-Up-Git)
 
 # Setting Up Git
 
@@ -211,7 +211,7 @@
 
 		git config --global user.email "YOUR@EMAIL.COM"
 
-4. Proceed to [Learning Git](#LearningGit)
+4. Proceed to [Learning Git](#Learning-Git)
 
 <u>macOS</u>
 
@@ -224,7 +224,7 @@
 
 		git config --global user.email "YOUR@EMAIL.COM"
 
-4. Proceed to [Learning Git](#LearningGit)
+4. Proceed to [Learning Git](#Learning-Git)
 
 # Learning Git
 
@@ -254,7 +254,7 @@
 1. Pushing your files to the repo
 
 	a. Open Windows Powershell or Terminal and go to your existing directory location
-    
+
 	b. Run the following commands (replace COMMIT MESSAGE with your commit message) **WARNING: THIS WILL PUSH YOUR CODE TO WHATEVER BRANCH YOU ARE CURRENTLY ON**
 
 		git add .
