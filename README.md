@@ -11,25 +11,37 @@
 		
 	c. Proceed to [Creating SSH Key](#CreatingSSHKey)
  2. Normal Installation (Recommended)
+
 	 a. Go to: [Download Git](https://git-scm.com/download/win)
+
 	 b. Download the latest version of git and install
+
 	 c. Go to: [Download OpenSSL](https://slproweb.com/products/Win32OpenSSL.html)
+
 	 d. Download and latest version of openssl and install
+
 	 e. Proceed to [Creating SSH Key](#CreatingSSHKey)
 	 
 <u>macOS:</u>
  1. HomeBrew (Package Manager) (Recommended)
+
 	 a. Open Terminal
+
 	 b. Run the following command
 
 		brew install git openssl
 		
 	c. Proceed to [Creating SSH Key](#CreatingSSHKey)
  2. Normal Installation
+
 	 a. Go to: [Download Git](https://git-scm.com/download/mac)
+
 	 b. Download the latest version of git and install
+
 	 c. Go to: [Download OpenSSL](https://www.openssl.org/source/)
+
 	 d. Download the latest version of openssl and build from source (do not recommend, advanced users only)
+
 	 e. Proceed to [Creating SSH Key](#CreatingSSHKey)
 
 # Creating SSH Key
@@ -218,13 +230,17 @@
 
 1. Keep one of the following cheat sheets handy [GitHub Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) or [GitLab Cheat Sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
 2. Adding an existing repository to your system
+
 	a. Open Windows Powershell or Terminal and go to your desired directory location
+
 	b. Run the following command (obtain the download url from the existing repo) generally have to look for a button on the repo that says `Code` and then make sure to `Clone with SSH`
 
 		git clone git@github.com:Panger95/using-git.git
 
 3. Adding git to an existing directory
+
 	a.  Open Windows Powershell or Terminal and go to your existing directory location
+
 	b. Run the following commands (replace COMMIT MESSAGE with your commit message) and (replace git@github.com:Panger95/using-git.git with your git url you obtained from the url page) **WARNING: THIS WILL PUSH YOUR CODE TO THE MASTER BRANCH**
 
 		git init
@@ -235,8 +251,10 @@
 
 **Note** Git messages should generally be as concise and descriptive as possible
 
-4. Pushing your files to the repo
+1. Pushing your files to the repo
+
 	a. Open Windows Powershell or Terminal and go to your existing directory location
+    
 	b. Run the following commands (replace COMMIT MESSAGE with your commit message) **WARNING: THIS WILL PUSH YOUR CODE TO WHATEVER BRANCH YOU ARE CURRENTLY ON**
 
 		git add .
