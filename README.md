@@ -241,7 +241,7 @@
 
 	a.  Open Windows Powershell or Terminal and go to your existing directory location
 
-	b. Run the following commands (replace COMMIT MESSAGE with your commit message) and (replace git@github.com:Panger95/using-git.git with your git url you obtained from the url page) **WARNING: THIS WILL PUSH YOUR CODE TO THE MASTER BRANCH**
+	b. Run the following commands (replace `COMMIT MESSAGE` with your commit message) and (replace `git@github.com:Panger95/using-git.git` with your git url you obtained from the url page) **WARNING: THIS WILL PUSH YOUR CODE TO THE MASTER BRANCH**
 
 		git init
 		git add .
@@ -255,7 +255,7 @@
 
 	a. Open Windows Powershell or Terminal and go to your existing directory location
 
-	b. Run the following commands (replace COMMIT MESSAGE with your commit message) **WARNING: THIS WILL PUSH YOUR CODE TO WHATEVER BRANCH YOU ARE CURRENTLY ON**
+	b. Run the following commands (replace `COMMIT MESSAGE` with your commit message) **WARNING: THIS WILL PUSH YOUR CODE TO WHATEVER BRANCH YOU ARE CURRENTLY ON**
 
 		git add .
 		git commit -m "COMMIT MESSAGE"
