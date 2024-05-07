@@ -2,7 +2,9 @@
 
 <u>Windows:</u>
  1. Chocolatey (Package Manager)
+
 	 a. Open Windows Powershell
+
 	 b. Run the following command
 	 
 		choco install git openssl
