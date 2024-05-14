@@ -1,6 +1,6 @@
 # Installing Git and OpenSSL
 
-<u>Windows:</u>
+Windows:
  1. Chocolatey (Package Manager)
 
 	 a. Open Windows Powershell
@@ -10,7 +10,15 @@
 		choco install git openssl
 		
 	c. Proceed to [Creating SSH Key](#Creating-SSH-Key)
- 2. Normal Installation (Recommended)
+ 2. Winget (Package Manager) (Recommended)
+     a. Open Windows Powershell
+
+	 b. Run the following command
+	 
+		winget install -e --id ShiningLight.OpenSSL Git.Git
+		
+	c. Proceed to [Creating SSH Key](#Creating-SSH-Key)
+ 3. Normal Installation
 
 	 a. Go to: [Download Git](https://git-scm.com/download/win)
 
@@ -22,7 +30,7 @@
 
 	 e. Proceed to [Creating SSH Key](#Creating-SSH-Key)
 	 
-<u>macOS:</u>
+macOS:
  1. HomeBrew (Package Manager) (Recommended)
 
 	 a. Open Terminal
@@ -46,7 +54,7 @@
 
 # Creating SSH Key
 
-<u>Windows:</u>
+Windows:
  1. Open Windows Powershell
  2. Run the following command
 
@@ -56,7 +64,7 @@
 4. Press Enter to save your new key with no password (Recommended)
 5. Proceed to [Adding Key to GitHub](#Adding-Key-to-GitHub) or [Adding Key to GitLab](#Adding-Key-to-GitLab)
  
-<u>macOS:</u>
+macOS:
 1. Open Terminal
 2. Run the following command
 
@@ -68,7 +76,7 @@
 
 # Adding Key to GitHub
 
-<u>Windows</u>
+Windows
 
  1. Open Windows Powershell
  2. Run the following command
@@ -102,7 +110,7 @@
 21. Confirm any prompts
 22. Proceed to [Setting Up Git](#Setting-Up-Git)
 
-<u>macOS</u>
+macOS
 
  1. Open Terminal
  2. Run the follow command
@@ -139,7 +147,7 @@
 
 # Adding Key to GitLab
 
-<u>Windows</u>
+Windows
 
  1. Open Windows Powershell
  2. Run the following command
@@ -168,7 +176,7 @@
 16. Confirm any prompts
 17. Proceed to [Setting Up Git](#Setting-Up-Git)
 
-<u>macOS</u>
+macOS
 
  1. Open Terminal
  2. Run the follow command
@@ -200,7 +208,7 @@
 
 # Setting Up Git
 
-<u>Windows</u>
+Windows
 
  1. Open Windows Powershell
  2. Run the following command (replace `YOUR NAME` with your name)
@@ -213,7 +221,7 @@
 
 4. Proceed to [Learning Git](#Learning-Git)
 
-<u>macOS</u>
+macOS
 
  1. Open Terminal
  2. Run the following command (replace `YOUR NAME` with your name)
