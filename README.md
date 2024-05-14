@@ -13,9 +13,10 @@ Windows:
  2. Winget (Package Manager) (Recommended)
      a. Open Windows Powershell
 
-	 b. Run the following command
+	 b. Run the following commands
 	 
-		winget install -e --id ShiningLight.OpenSSL Git.Git
+		winget install -e --id ShiningLight.OpenSSL
+		winget install -e --id Git.Git
 		
 	c. Proceed to [Creating SSH Key](#Creating-SSH-Key)
  3. Normal Installation
